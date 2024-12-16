@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    color:rgba(0, 0, 0, 0.491);
+    font-family: "Kanit", sans-serif;
+}
+
+body{
+    background-image: url("images/bg.jpg");
+    min-height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: 3rem;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 25vh;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 10rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-e{
+    text-align: center;
+}
+
+.countdown-e span{
+    font-size: 1.3rem;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.21);
+    color: rgba(0, 0, 0, 0.651);
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
