@@ -19,7 +19,7 @@ interval = window.setInterval(function(){
     cMonth = cDate.getMonth() +1;
     cYear = cDate.getFullYear();
 
-    document.querySelector("#yhead").innerHTML = "New Year "+cYear;
+    document.querySelector("#yhead").innerHTML = "New Year "+(cYear+1);
     if (cYear % 4 == 0) {
         daysPerYear = 366;
         daysInFeb = 29;
